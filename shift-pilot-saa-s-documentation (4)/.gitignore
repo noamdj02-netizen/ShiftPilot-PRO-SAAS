@@ -1,0 +1,115 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+.pnp.*
+
+# Testing
+/coverage
+*.test.js
+*.test.ts
+*.test.tsx
+*.spec.js
+*.spec.ts
+*.spec.tsx
+
+# Next.js
+/.next/
+/out/
+/.turbo/
+/.swc/
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+*.pem
+*.log
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local env files
+.env*.local
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Data files (JSON database)
+/data/*.json
+!data/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Logs
+logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Build artifacts
+*.map
+*.min.js
+*.min.css
+
+# Large files and caches
+*.cache
+.cache/
+.turbo/
+.swc/
+.eslintcache
+.stylelintcache
+
+# Package manager locks (keep only one)
+# This project uses pnpm, so pnpm-lock.yaml is tracked
+# Ignore other package manager lock files
+package-lock.json
+yarn.lock
+
+# Environment files (keep .env.example)
+.env
+.env.local
+.env.development
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Reports and temporary documentation (keep only essential docs)
+# RAPPORT_*.md
+# *_REPORT.md
+# *_PROGRESS.md
